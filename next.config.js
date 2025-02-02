@@ -5,7 +5,9 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   images: {
     domains: ['localhost'],
+    unoptimized: true,
   },
+  output: 'standalone',
 }
 
 module.exports = nextConfig 
